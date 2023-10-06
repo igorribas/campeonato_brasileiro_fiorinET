@@ -70,9 +70,7 @@ sap.ui.define(
                     async: true,
                     crossDomain: true,
                     headers: {
-                        Authorization:
-                            // `Bearer ${TOKEN}`,
-                            'Bearer live_678f153574bbfbd72a6fa8f3125d6a',
+                        Authorization: 'Bearer {varToken},
                     },
                 }
 
